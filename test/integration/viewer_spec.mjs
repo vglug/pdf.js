@@ -89,7 +89,7 @@ describe("PDF viewer", () => {
               .toBe(true);
           }
         })
-      );
+      );    
     });
   });
 
