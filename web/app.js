@@ -818,7 +818,7 @@ const PDFViewerApplication = {
     return shadow(
       this,
       "supportsMouseWheelZoomCtrlKey",
-      AppOptions.get("supportsMouseWheelZoomCtrlKey")  
+      AppOptions.get("supportsMouseWheelZoomCtrlKey")
     );
   },
 
@@ -2664,9 +2664,7 @@ function webViewerWheel(evt) {
             "_wheelUnusedTicks"
           );
         }
-      } 
-      else 
-        {
+      } else {
         // pixel-based devices
         const PIXELS_PER_LINE_SCALE = 90;
         ticks = PDFViewerApplication._accumulateTicks(
